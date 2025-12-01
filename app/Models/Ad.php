@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Ad extends Model
 {
-    protected $fillable = ['name', 'image', 'desc', 'product_id'];
+  protected $fillable = ['name', 'image', 'description', 'product_id'];
 
-    public function product()
-    {
-        return $this->belongsTo(Product::class);
-    }
+  public function product()
+  {
+    return $this->belongsTo(Product::class);
+  }
 }
