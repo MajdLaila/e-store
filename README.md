@@ -1,3 +1,43 @@
+ #  E-Store Name
+
+A scalable RESTful API built with Laravel using Clean Architecture
+(Controller → Service → Repository) for e-commerce platforms.
+
+---
+
+## 🚀 Overview
+
+This project is a scalable and maintainable application built using best practices and clean architecture principles. It is designed to be easy to understand, extend, and test.
+
+---
+
+## 🧰 Tech Stack
+
+* Laravel 10
+* PHP 8.2
+* MySQL
+* Laravel Sanctum (Authentication)
+* REST API
+* Clean Architecture
+
+---
+
+## ✨ Key Features
+
+- User authentication & authorization
+- Category hierarchy (parent / child)
+- Products & Ads management
+- OTP verification & password reset
+- Secure API with Sanctum
+- Clean & testable architecture
+
+---
+
+## Project Architecture
+
+This project follows a clean layered architecture:
+
+Controller → Service → Repository → Model
 
 ### Layer Responsibilities
 
