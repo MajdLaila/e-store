@@ -1,4 +1,4 @@
- #  E-Store Name
+ #  E-Store 
 
 A scalable RESTful API built with Laravel using Clean Architecture
 (Controller → Service → Repository) for e-commerce platforms.
