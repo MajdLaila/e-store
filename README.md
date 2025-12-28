@@ -1,4 +1,4 @@
- #  E-Store 
+ #  E-Store
 
 A scalable RESTful API built with Laravel using Clean Architecture
 (Controller → Service → Repository) for e-commerce platforms.
@@ -10,6 +10,22 @@ A scalable RESTful API built with Laravel using Clean Architecture
 This project is a scalable and maintainable application built using best practices and clean architecture principles. It is designed to be easy to understand, extend, and test.
 
 ---
+## User flow
+
+* User registers and logs in.
+
+* User sets their location for product delivery.
+
+* User adds products to cart.
+
+* User selects a shipping address (either their location or another).
+
+* The system automatically suggests the nearest shipping company.
+
+* User can chat directly with the product owner.
+
+* Favorites and cart management are supported for seamless shopping.
+
 
 ## 🧰 Tech Stack
 
