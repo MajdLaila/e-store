@@ -6,10 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class ShippingCompanyLocation extends Model
 {
-    protected $fillable = ['name', 'lat', 'lang'];
+  protected $table = 'shipping_companies_locations'; // <-- هنا
+  protected $fillable = ['name', 'lat', 'lang', 'phone', 'address'];
 
-    protected $casts = [
-        'lat' => 'decimal:7',
-        'lang' => 'decimal:7',
-    ];
+  protected $casts = [
+    'lat' => 'decimal:7',
+    'lang' => 'decimal:7',
+  ];
 }

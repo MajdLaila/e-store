@@ -24,16 +24,7 @@ class ProductController extends BaseApiController
     private readonly ProductService $product_service,
   ) {}
   // جلب جميع المنتجات
-  public function index()
-  {
-    // من المفترض هنا جلب جميع المنتجات مع إمكانية التصفية أو التصفح عند الحاجة
-    // مثال توضيحي فقط:
-    // return response()->json(Product::all());
 
-    return response()->json([
-      'message' => 'جلب جميع المنتجات (مثال)'
-    ]);
-  }
 
   // public function show($product_id): JsonResponse
   // {
